@@ -28,7 +28,6 @@ class AddForm extends Component {
                 <input type="text" onChange={this.updateInput} value={this.state.userInput} className="add-input"/>
                 <button onClick={this.addHandler}>Add</button>
                 <button className="hide">...</button>
-                {/* <div className="user-input">{this.state.userInput}</div> */}
             </div>
         );
     }

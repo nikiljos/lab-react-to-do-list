@@ -12,7 +12,6 @@ class ToDo extends Component {
     }
 
     addItem = (item) => {
-        console.log(this.state.data);
         if (item === "") {
             alert("Item Cannot be blank");
             return;
@@ -39,9 +38,7 @@ class ToDo extends Component {
     deleteItem=(id)=>{
         this.setState(prev=>{
             let data=prev.data;
-            console.log("before",data)
             data.splice(id,1)
-            console.log(id,data)
             return {
                 data
             }
@@ -56,12 +53,9 @@ class ToDo extends Component {
     render() {
         return (
             <div className="ToDo">
-                {/* {console.log(this.state.data)} */}
                 <AddForm addItem={this.addItem} />
                 <div>
-                    {console.log(this.state.data)}
                     {this.state.data.map((elt, i) => {
-                        // console.log({ elt, i });
                         return <ToDoItem item={elt} id={i} key={`${i}-${elt}`} actions={this.actions}/>;
                     })}
                 </div>

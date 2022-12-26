@@ -4,22 +4,15 @@ class ToDoItem extends Component{
 
     constructor(props){
         super(props);
-        // console.log(this.props);
         this.state={
             editable:false,
             item:this.props.item
         }
     }
 
-    test(){
-        console.log("props",this.props)
-        console.log("state", this.state);
-    }
-
     handleEdit=()=>{
         let editStatus=this.state.editable;
         if(editStatus){
-            // console.log("saving")
             this.props.actions.edit(this.props.id,this.state.item)
         }
         this.setState({
@@ -39,7 +32,6 @@ class ToDoItem extends Component{
     }
     
     render(){
-        // this.test()
         return (
             <div className="ToDoItem" id={this.props.id}>
                 <input type="text" disabled={!this.state.editable} value={this.state.item} onChange={this.updateInput}/>
