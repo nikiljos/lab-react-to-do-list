@@ -21,7 +21,6 @@ class ToDoItem extends Component{
     }
 
     handleDelete=()=>{
-        console.log("in")
         this.props.actions.delete(this.props.id)
     }
 
