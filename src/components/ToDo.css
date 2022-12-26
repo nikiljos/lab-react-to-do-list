@@ -1,0 +1,41 @@
+.ToDo{
+    width: fit-content;
+    margin: 30px auto;
+}
+
+input,button{
+    margin: 3px;
+    padding: 7px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    border-radius: 3px;
+    
+}
+input{
+    background-color: rgba(236, 216, 255, 0.725);
+    color: black;
+    width: 250px;
+}
+button{
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    color: #ffffff;
+    min-width: 60px;
+}
+
+button:hover{
+    color: blueviolet;
+    background-color: #ffffff;
+}
+/* input:disabled{
+    background-color: #ffffff;
+} */
+
+input:enabled{
+    background-color: rgba(187, 249, 233, 0.725);
+}
+
+.hide{
+    visibility: hidden;
+}

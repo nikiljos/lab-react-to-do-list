@@ -1,57 +1,70 @@
-![Logo-nav](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/Kalvium-Logo.png)
+# Getting Started with Create React App
 
-## Learning Goals:
-1. The prime objective of this lab is to understand how CRUD (create read update delete) operations can be achieved
-using ReactJs.
-2. The second important objective of this lab is to understand the use of `components`.
-3. Finally, this exercise will also focus on `props` and `states` (states using class component).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-You can consider this as a lab/project which covers everything that we have learned by now.
+## Available Scripts
 
+In the project directory, you can run:
 
-## Getting started
+### `npm start`
 
-1. Fork this repo
-2. Clone this repo
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Whenever you create a first significant change, you should make your first commit.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-3. Follow these [guidelines to add, commit and push changes](https://github.com/FACEPrep-ProGrad/general-guidelines-labs-project-builders.git).
+### `npm test`
 
-### Introduction:
-For this exercise, the aim is just to see how simple CRUD operations can be performed. 
-If you are not familiar with what CRUD is or you need some revision -- you can visit [this link](https://www.freecodecamp.org/news/crud-operations-explained/), to have better understanding.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-To-do-list is one of the simplest idea, where CRUD can be easily observed. For eg:
-1. If I want to add new action item for a particular day --> I can `create` an item and add to my to-do-list.
-2. Once the action item is created then I can `read` that action item -> anytime I open my to-do-list application.
-3. I can even `update` the action item - if needed. For eg: if I wanted to write `Buy Mac`, but by mistake I wrote `Buy Windows`, then I should be able to update this current action item.
-4. Once the action item is achieved - then I should be able to `delete` that particular action item.
+### `npm run build`
 
-So, with a simple to-do-list app, we can achieve all the `CRUD` operations.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Steps to follow:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-1. Setup the project by using the following command ~ `npx create-react-app kalvium-pronote` .
-2. Follow each segment given below - in order to get an idea of how the app should work. 
-   **Note:** This lab is not focussing much on the styling part -- but feel free to add styles to your project.
-   If you want - you can even mimic the design as shown below:
-   
- ![](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/todo.png)
-   
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Create:
+### `npm run eject`
 
-![](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/add-react-todo.gif)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### Update:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-![](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/update-react-todo.gif)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-For the update functionality - you can even try creating a button for it. (Upon clicking the button, you should be able to edit the item.)
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### Delete:
+## Learn More
 
-![](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/delete-react-todo.gif)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
